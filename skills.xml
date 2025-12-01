@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+    <skill>
+        <category>Programming Languages</category>
+        <name>Python, Java, C++</name>
+        <level>Advanced</level>
+    </skill>
+    <skill>
+        <category>Web Development</category>
+        <name>HTML5, CSS3, JavaScript</name>
+        <level>Intermediate</level>
+    </skill>
+    <skill>
+        <category>Data Science</category>
+        <name>Pandas, NumPy, Matplotlib</name>
+        <level>Advanced</level>
+    </skill>
+    <skill>
+        <category>AI &amp; ML</category>
+        <name>TensorFlow, PyTorch, Scikit-learn</name>
+        <level>Intermediate</level>
+    </skill>
+    <skill>
+        <category>Databases</category>
+        <name>MySQL, MongoDB</name>
+        <level>Intermediate</level>
+    </skill>
+</skills>

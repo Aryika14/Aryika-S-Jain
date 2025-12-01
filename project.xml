@@ -1,0 +1,26 @@
+<projects>
+    <project>
+        <title>AI Image Classifier</title>
+        <category>Deep Learning</category>
+        <description>A convolutional neural network model trained to classify images into 10 distinct categories using Python and TensorFlow.</description>
+        <icon>fa-brain</icon>
+    </project>
+    <project>
+        <title>Sorting Visualizer</title>
+        <category>Algorithms</category>
+        <description>An interactive web application to visualize sorting algorithms like Bubble Sort, Merge Sort, and Quick Sort in real-time.</description>
+        <icon>fa-sort-amount-down</icon>
+    </project>
+    <project>
+        <title>Student Portfolio</title>
+        <category>Web Development</category>
+        <description>A responsive portfolio website created using HTML, CSS, JavaScript, and XML to display academic achievements.</description>
+        <icon>fa-laptop-code</icon>
+    </project>
+    <project>
+        <title>Hospital DBMS</title>
+        <category>Database Systems</category>
+        <description>A comprehensive database management system designed for hospital records using SQL and PHP.</description>
+        <icon>fa-database</icon>
+    </project>
+</projects>
