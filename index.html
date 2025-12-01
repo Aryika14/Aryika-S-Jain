@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryika S Jain | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0&icon_names=id_card" />
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Aryika S Jain.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills (XML)</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-bg-shape"></div>
+        <div class="hero-content">
+            <p class="subtitle">Hello, I'm Aryika S Jain,</p>
+            <h1>A Future <span class="highlight">AI & CS</span><br>Engineer</h1>
+            <p class="description">
+                BE in Artificial Intelligence and Computer Science student at Malnad College of Engineering. 
+                Passionate about Machine Learning, Deep Learning, and building intelligent software solutions.
+            </p>
+            <div class="buttons">
+                <a href="#contact" class="btn primary">CONTACT ME &rarr;</a>
+                <a href="#projects" class="btn secondary">View Work <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="img-wrapper">
+                <img src="photo/photo.jpg" alt="Aryika S Jain">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About & Education</h2>
+        <div class="about-container">
+            <div class="education-card">
+                <h3><i class="fas fa-university"></i> Malnad College of Engineering</h3>
+                <p class="date">2023 - 2027</p>
+                <p><strong>Degree:</strong> BE in Artificial Intelligence and Computer Science</p>
+                <p><strong>Location:</strong> Hassan, Karnataka, India</p>
+                <p><strong>GPA:</strong> 8.0 / 10.0</p>
+                <br>
+                <h4>Relevant Coursework:</h4>
+                <p>Data Structures, Algorithms, Web Development, Database Systems, Software Engineering, Operating Systems, Machine Learning, Artificial Intelligence, Deep Learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Technical Skills (XML Data)</h2>
+        <p style="text-align:center; margin-bottom: 20px;">The table below is generated dynamically by reading the <code>skills.xml</code> file.</p>
+        
+        <div class="table-container">
+            <table id="skills-table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Technology</th>
+                        <th>Proficiency Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+        <button onclick="loadSkills()" class="btn primary" style="margin: 20px auto; display:block;">Load Skills from XML</button>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Academic Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="card-icon"><i class="fas fa-brain"></i></div>
+                <h3>AI Crop Disease Detector</h3>
+                <p>A machine learning model utilizing CNNs to detect diseases in crops via image processing. Built to assist local farmers in Karnataka.</p>
+                <span class="tag">Python</span> <span class="tag">TensorFlow</span>
+            </div>
+            <div class="project-card">
+                <div class="card-icon"><i class="fas fa-database"></i></div>
+                <h3>Intelligent Student Database</h3>
+                <p>A comprehensive database management system optimized with AI algorithms to predict student performance trends.</p>
+                <span class="tag">SQL</span> <span class="tag">Java</span>
+            </div>
+            <div class="project-card">
+                <div class="card-icon"><i class="fas fa-robot"></i></div>
+                <h3>Smart Traffic Management</h3>
+                <p>An AI-driven simulation for optimizing traffic light intervals based on real-time density data.</p>
+                <span class="tag">OpenCV</span> <span class="tag">C++</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section footer-section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>aryikas14@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>+91 8073999277</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Hassan, India</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-id-card"></i>
+                <p>4MC23CS018</p>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2025 Aryika S Jain. All Rights Reserved.</p>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+                        
+             
